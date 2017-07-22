@@ -1,0 +1,83 @@
+/* style.css: feuille de style pour l'ensemble des pages du site Mosa 3D */
+body
+{
+
+	
+}
+
+p
+{
+	font-size:1em;
+    /*color: blue;*/
+	opacity: 0.3;
+	word-wrap: break-word;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 2em;
+	border: 3px blue solid;
+	border-radius: 10px;
+}
+
+nav
+{
+	display:inline-block;
+	/* float: left; */
+	width: 40%;
+	border:  1px solid black;
+	vertical-align: top;
+	text-align: right;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+section
+{
+	display:inline-block;
+	width: 50%;
+	min-width:400px;
+	margin-left:100px; /* Marge intérieure de 10px */
+	overflow:hiddden;
+	vertical-align: top;
+}
+
+.diapos
+{
+	background-color : rgba(255, 0, 0, 0.5); /* Fond rouge à moitié transparent */
+	/* background-image: url("png/neige.png"); */
+	/* background-attachment: fixed; */ /* Le fond restera fixe */
+	/* background-repeat: no-repeat; */
+	/* background-position: top right; */
+	
+}
+
+.thumbnail:hover
+{
+	background-color:red;
+	opacity: 0.2;
+}
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: red;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+

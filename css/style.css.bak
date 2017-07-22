@@ -1,0 +1,18 @@
+/*
+style.css: feuille de style pour l'ensemble des pages du site Mosa 3D
+*/
+
+p
+{
+	font-size:1em;
+    /*color: blue;*/
+}
+
+h1
+{
+	font-size: 2em;
+}
+.diapos
+{
+	background : grey;
+}
